@@ -1,2 +1,5 @@
-.local_facets.h
+../local_facets.h
 bin/
+.classpath
+.project
+.settings/
