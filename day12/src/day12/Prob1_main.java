@@ -9,14 +9,10 @@ public class Prob1_main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//ArrayList <Integer> num = new ArrayList <Integer> ();
 		int [] num = new int [10];
 		ArrayList <Integer> odd = new ArrayList <Integer> ();
 		ArrayList <Integer> even = new ArrayList <Integer> ();
 		
-		//num.add((int)(Math.random()*10)+1);
-		
-		//int size = num.size();
 		for(int i = 0; i < num.length; i++) {
 			num[i] = (int)(Math.random()*10);
 			System.out.print(num[i] + " ");
